@@ -35,13 +35,13 @@ For more information about the dataset or experiment setup, please refer to the 
 * Phase 1: train the model on training set, the trained model will be saved by default as 'model_out' in /model_save and will be used later in phase 2 finetuning
 
 ```
-python gradcam.py --train-batch 100 --test-batch 10 --n_epoch 50
+python GRADIA.py --train-batch 100 --test-batch 10 --n_epoch 50
 ```
 
 * Phase 2: load & finetune the phase 1's model on val+train set with all available attention labels
 
 ```
-python gradcam.py --train-batch 100 --test-batch 10 --n_epoch 50 --model_name model_out --trainWithMap
+python GRADIA.py --train-batch 100 --test-batch 10 --n_epoch 50 --model_name model_out --trainWithMap
 ```
 
 *Notice*: The above code will introduce the attention loss on all the samples that have attention label available. This comes in handy if you don't want any additional human assesssment on reasonbality. This only require you to have the attention labels for val&test set.
@@ -51,14 +51,14 @@ However, if you do get the reasonablity matrix on validation set of your phase 1
 To do so, simply add '--reasonablity' into the command:
 
 ```
-python gradcam.py --train-batch 100 --test-batch 10 --n_epoch 50 --model_name model_out --trainWithMap --reasonablity
+python GRADIA.py --train-batch 100 --test-batch 10 --n_epoch 50 --model_name model_out --trainWithMap --reasonablity
 ```
 
 ## Sample Testing Scripts 
 To test the performance of the specified model in '--model_name [your_model_name]', just add '--evaluate' into the command:
 
 ```
-python gradcam.py --train-batch 100 --test-batch 10 --model_name [your_model_name] --evaluate
+python GRADIA.py --train-batch 100 --test-batch 10 --model_name [your_model_name] --evaluate
 ```
 
 
