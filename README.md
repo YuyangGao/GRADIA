@@ -18,8 +18,8 @@ Python pakage requirement:
 
 1. Download the datasets as well as our human explanation labels via google drive link below:
 
-* Gender classification dataset: [link]()
-* Our human explanation labels: [link]()
+* Gender classification dataset: [https://drive.google.com/file/d/1CSPzEUcd8aCiiQCspO5oKzqHmS8tY_85/view?usp=sharing](https://drive.google.com/file/d/1CSPzEUcd8aCiiQCspO5oKzqHmS8tY_85/view?usp=sharing)
+* Our human explanation labels: [https://drive.google.com/file/d/1tJoahurhyhNNlmBdwJlMi3-vxXz2nxkY/view?usp=sharing](https://drive.google.com/file/d/1tJoahurhyhNNlmBdwJlMi3-vxXz2nxkY/view?usp=sharing)
 
 2. Extract the dataset and place them in 'gender_data/' data directory.
 
