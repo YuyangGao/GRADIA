@@ -7,8 +7,7 @@ from datetime import datetime
 from pytz import timezone
 from config import SECRET_KEY
 
-## Run initialization code "cnn_ui_reason_prep.py"
-import cnn_ui_reason_prep
+## Run initialization code "cnn_ui_reason_prep.py" first
 
 
 #*##########
