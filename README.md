@@ -83,7 +83,7 @@ And if you find this repo useful in your research, please consider cite our pape
 
     @article{gao2022aligning,
     title={Aligning Eyes between Humans and Deep Neural Network through Interactive Attention Alignment},
-    author={Gao, Yuyang and Sun, Tong and Zhao, Liang and Hong, Sungsoo},
+    author={Gao, Yuyang and Sun, Tong Steven and Zhao, Liang and Hong, Sungsoo Ray},
     journal={arXiv preprint arXiv:2202.02838},
     year={2022}
     }
